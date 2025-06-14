@@ -15,6 +15,6 @@ export const weatInstance = axios.create({
   baseURL: process.env.NEXT_PUBLIC_WEATHER_API_KEY,
   params: {
     appid: process.env.NEXT_PUBLIC_WEATHER_KEY,
-    limit: 1,
+    limit: 3,
   },
 });
